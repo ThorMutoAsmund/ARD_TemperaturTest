@@ -1,6 +1,8 @@
 #include <Arduino.h>
 
-#include "DHT.h"
+// #include "IntellisenseClang.h"
+#include <DHT.h>
+
 
 #define LED 3
 #define DHTPIN 2
@@ -19,7 +21,7 @@ void setup() {
 
 void loop() {    
     // Wait a few seconds between measurements.
-    delay(2000);
+    delay(500);
     digitalWrite(LED, HIGH);   // turn the LED on (HIGH is the voltage level)
     
     // Reading temperature or humidity takes about 250 milliseconds!

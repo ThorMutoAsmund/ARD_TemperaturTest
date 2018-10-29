@@ -1,0 +1,12 @@
+PARTS:
+DHT11 Temperature sensor
+LED Red
+R1 330R 
+
+CONNECTIONS:
+5V connected to DHT11 VCC
+Gnd connected to DHT11 GND
+Port2 connected to DHT11 DATA
+Port3 connected to R1
+R1 connected to LED
+LED connected to Gnd
